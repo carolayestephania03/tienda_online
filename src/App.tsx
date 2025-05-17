@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Button } from "@/components/ui/button"
 
 
 function App() {
@@ -10,9 +9,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
-    </div>
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
